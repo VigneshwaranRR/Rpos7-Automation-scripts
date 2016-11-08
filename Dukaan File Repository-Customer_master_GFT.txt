@@ -1,0 +1,30 @@
+'Customer master
+wait(3)
+Window("regexpwndtitle:= GoFrugal RPOS7").Winobject("abs_y:=74").type micCtrldwn+micShiftdwn+"c"+micCtrlUp+micShiftUp
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Customer Master").Type micBack+"Vicky"+micReturn
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Customer Master").Type "Vicky"+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Customer Master").type micBack+"80120488733"+micReturn
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Customer Master").Type 
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Customer Master").type micBack + "46,Tamil Nagar 3rd cross"+micReturn
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Customer Master").Type 
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Customer Master").type micBack + "Thanjavur"+micReturn
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Customer Master").Type 
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Customer Master").type micF6
+wait(1)
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Customer Master").type micBack+"Sahuu"+micReturn
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Customer Master").Type 
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Customer Master").type micBack+ "94435869655"+micReturn
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Customer Master").Type
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Customer Master").type micBack+"11A,Park road"+micReturn
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Customer Master").Type 
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Customer Master").type micBack+"Chennai"+micReturn
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Customer Master").Type 
+ Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Customer Master").type micF6
+
+ Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Customer Master").Type micEsc
+
+
+
+
+

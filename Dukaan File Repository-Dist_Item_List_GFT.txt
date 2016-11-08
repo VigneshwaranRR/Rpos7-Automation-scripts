@@ -1,0 +1,10 @@
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type "Distributor item"+micReturn+micReturn
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Distributor item list").Window("regexpwndtitle:= Report filter").Type micF2
+wait(2)
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Distributor item list").Type micEsc
+
+
+
+

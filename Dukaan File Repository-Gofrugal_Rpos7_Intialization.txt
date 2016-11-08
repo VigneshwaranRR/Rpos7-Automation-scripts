@@ -1,0 +1,49 @@
+Invokeapplication ("C:\Users\admin\Desktop\Rpos7\webinstaller.exe")
+wait(3)
+window("regexpwndtitle:= GoFrugal RPOS Installer").winobject("regexpwndclass:= WindowsForms10.EDIT.*","width:= 113").Type "1111"
+window("regexpwndtitle:= GoFrugal RPOS Installer").winobject("regexpwndtitle:= Mobile number or Email id").Type "8012048873"
+window("regexpwndtitle:= GoFrugal RPOS Installer").winobject("regexpwndtitle:= I agree the license agreement").Click
+window("regexpwndtitle:= GoFrugal RPOS Installer").winobject("regexpwndtitle:=Continue").Click
+window("regexpwndtitle:= GoFrugal RPOS Installer").winobject("regexpwndtitle:= Hardware").Click
+'window("regexpwndtitle:= GoFrugal RPOS Installer").winobject("regexpwndtitle:=Specialized retail").Click
+'window("regexpwndtitle:= GoFrugal RPOS Installer").winobject("regexpwndtitle:=Specialized retail").Click
+window("regexpwndtitle:= GoFrugal RPOS Installer").winobject("regexpwndtitle:= Next").Click
+window("regexpwndtitle:= GoFrugal RPOS Installer").WinObject("regexpwndclass:= WindowsForms10.COMBOBOX.app.*","width:= 43").Type "D"+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS Installer").winobject("regexpwndtitle:= _____-_____-_____-____").Type "8012048873011110003"
+Window("regexpwndtitle:= GoFrugal RPOS Installer").winobject("regexpwndtitle:= I have setup in local machine").Click
+Window("regexpwndtitle:= GoFrugal RPOS Installer").winobject("regexpwndclass:= WindowsForms10.BUTTON.*","width:=94").Click
+Dialog("regexpwndtitle:= Browse the POS setup file").WinEdit("attachedtext:= File &name:","windowstyle:= 1409286272").Type "C:\Users\admin\Desktop\Rpos7\GoFrugalRPOS_SMI_7000_24102016.exe"
+Dialog("regexpwndtitle:= Browse the POS setup file").winobject("regexpwndtitle:=&Open").Click
+Window("regexpwndtitle:= GoFrugal RPOS Installer").winobject("regexpwndtitle:= Start Installation").Click
+Dialog("regexpwndtitle:= Security warning").WinButton("regexpwndtitle:= &Run").WaitProperty "regexpwndtitle","&Run","250"
+wait(5)
+Dialog("regexpwndtitle:= Security warning").WinButton("regexpwndtitle:= &Run").Click
+Window("regexpwndtitle:= GoFrugal RPOS Installer").Window("regexpwndtitle:= Next").WaitProperty "regexpwndtitle","Next","250"
+wait(5)
+Window("regexpwndtitle:= GoFrugal RPOS Installer").Type micTab+micTab+micTab
+Window("regexpwndtitle:= GoFrugal RPOS Installer").Type "654321"+micTab
+wait(1)
+Window("regexpwndtitle:= GoFrugal RPOS Installer").Type "46,Tamil Nagar 3rd Cross,Medical college road"+micTab
+wait(1)
+Window("regexpwndtitle:= GoFrugal RPOS Installer").Type "Thanjavur"+micTab
+wait(1)
+Window("regexpwndtitle:= GoFrugal RPOS Installer").Type "613007"
+'Window("regexpwndtitle:= GoFrugal RPOS Installer").winobject("regexpwndclass:= WindowsForms10.EDIT.*","abs_x:= 398","abs_y:= 473").Type "46,Tamil Nagar 3rd Cross,Medical college road"
+'Window("regexpwndtitle:= GoFrugal RPOS Installer").winobject("regexpwndclass:= WindowsForms10.EDIT.*","abs_x:= 398","abs_y:= 506").Type "613007"
+Window("regexpwndtitle:= GoFrugal RPOS Installer").winobject("regexpwndtitle:=Next").Click
+Window("regexpwndtitle:= GoFrugal RPOS Installer").winobject("regexpwndtitle:= Start application").WaitProperty "regexpwndtitle","Start application","2500"
+Window("regexpwndtitle:= GoFrugal RPOS Installer").winobject("regexpwndtitle:= Start application").WaitProperty "regexpwndtitle","Start application","2500"
+Window("regexpwndtitle:= GoFrugal RPOS Installer").winobject("regexpwndtitle:= Start application").Click
+
+Dialog("regexpwndclass:= #32770","windowstyle:=-1798831675","width:= 316").Type micReturn
+Window("regexpwndtitle:= GoFrugal Auto Database Backup").WaitProperty "regexpwndtitle","GoFrugal Auto Database Backup","200"
+Window("regexpwndtitle:= GoFrugal Auto Database Backup").Type micreturn
+Window("regexpwndtitle:= Settings").WaitProperty "regexpwndtitle","Settings","200"
+Window("regexpwndtitle:= Settings").Type micReturn
+wait(2)
+RunAction "Action1 [Registry update_GFT]", oneIteration
+wait(2)
+RunAction "Main function [POS main function_GFT]", oneIteration
+wait(2)
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type "Exit"+micReturn+micReturn+micReturn

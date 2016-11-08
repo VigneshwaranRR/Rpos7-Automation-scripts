@@ -1,0 +1,25 @@
+'Vat commodity search
+Window("regexpwndtitle:= GoFrugal Rpos7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal Rpos7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type "vat commodity"+micReturn+micReturn
+'Vat commoduty update
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Update").Type "1212215"+micReturn
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Update").Type micF3
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Update").Type "Y"+micDwn
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Update").Type "Y"+micDwn
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Update").Type "Y"+micDwn
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Update").Type "Y"+micDwn
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Update").Type "Y"+micDwn+micDwn+micDwn+micDwn
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Update").Type "Y"+micDwn
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Update").Type "Y"+micDwn
+wait(1)
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Update").Type micF6
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Update").Window("regexpwndclass:= ThunderRT6FormDC","windowstyle:= 369098752").Type micLeft+micReturn
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Update").Window("regexpwndclass:= ThunderRT6FormDC","windowstyle:= 369098752").Type micreturn
+
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Update").Type micEsc
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Update").Window("regexpwndclass:= ThunderRT6FormDC","windowstyle:= 369098752").Type micreturn
+
+
+
+
+

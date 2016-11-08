@@ -1,0 +1,50 @@
+'Stock updation
+Window("regexpwndtitle:= GoFrugal RPOS7").Type micCtrlDwn+"u"+micCtrlUp
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Stock Update").Type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Form1").Type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Stock Update").Type micBack+micBack+micBack+micDwn+"0"+micDwn+"0"
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Stock Update").Type micF6
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Stock Update").Window("regexpwndclass:=ThunderRT6FormDC","Windowstyle:= 369098752").Type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Stock Update").Window("regexpwndclass:=ThunderRT6FormDC","Windowstyle:= 369098752").Type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Stock Update").Window("regexpwndclass:=ThunderRT6FormDC","Windowstyle:= 369098752").Type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Stock Update").Type micEsc
+'Negative stock selling
+Window("regexpwndtitle:= GoFrugal RPOS7").Type micCtrlDwn+"s"+micCtrlUp
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= bill entry screen").Type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Form1").Type "Flower"+ micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndclass:= ThunderRT6FormDC","Windowstyle:= 377487360").Type  micDwn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= bill entry screen").Type "100"+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= bill entry screen").Type micF6
+
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= bill entry screen").Window("regexpwndclass:= ThunderRT6FormDC","Windowstyle:= 343932928").Type micreturn
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= bill entry screen").Window("regexpwndclass:= ThunderRT6FormDC","Windowstyle:= 343932928").Type micRight+micreturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= bill entry screen").Type micEsc
+
+'Negative stock adjustments
+
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type "Negative stock"+micReturn+micReturn
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Negative Stock Adjustment").Type micDwn+micReturn+micReturn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Negative Stock Adjustment").Type "1000"+micright+"Y"
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Negative Stock Adjustment").Type micF6
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Negative Stock Adjustment").Window("regexpwndclass:= ThunderRT6FormDC","Windowstyle:= 369098752").Type micLeft+micreturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Negative Stock Adjustment").Window("regexpwndclass:= ThunderRT6FormDC","Windowstyle:= 369098752").Type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Negative Stock Adjustment").Window("regexpwndclass:= ThunderRT6FormDC","Windowstyle:= 369098752").Type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Negative Stock Adjustment").Type micEsc
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Negative Stock Adjustment").Window("regexpwndclass:= ThunderRT6FormDC","Windowstyle:= 369098752").Type micreturn
+
+
+
+
+
+
+
+
+
+
+
+
+
+

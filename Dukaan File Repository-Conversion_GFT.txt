@@ -1,0 +1,49 @@
+'Conversion search
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type "Conversion"+micReturn+micReturn
+'Conversion master
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Conversion Master").Window("regexpwndclass:=DataGridWndClass","Windowstyle:= 1442840576","width:= 593").Type micBack+"Box-Large cards 10*18"+micReturn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Conversion Master").Window("regexpwndclass:=DataGridWndClass","Windowstyle:= 1442840576","width:= 593").Type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Conversion Master").Type micF2
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Conversion Master").Window("regexpwndtitle:= Form1").Type "Greeting card large"+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Conversion Master").Window("regexpwndclass:=DataGridWndClass","Windowstyle:= 1451229184","width:= 795").Type micBack+"10"+micReturn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Conversion Master").Window("regexpwndtitle:=.").Type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Conversion Master").Window("regexpwndclass:=DataGridWndClass","Windowstyle:= 1451229184","width:= 795").Type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Conversion Master").Window("regexpwndtitle:=.").Type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Conversion Master").Type micF6
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Conversion Master").Type micEsc
+
+'Sales of converted quantity
+
+window("regexpwndtitle:= GoFrugal RPOS7").Winobject("abs_y:=74").type micCtrldwn+"s"+micCtrlUp
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= bill entry screen").Type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Form1").WinObject("regexpwndclass:= ThunderRT6TextBox","Windowstyle:=1409353920").Type "Greeting cards large"+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndclass:= ThunderRT6FormDC","Windowstyle:=377487360").Type micreturn
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= bill entry screen").Type "1"
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= bill entry screen").Type micshiftDwn+micaltDwn+micF12+micaltUp+micshiftUp
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= bill entry screen").Window("regexpwndtitle:= Form1").Type micReturn
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= bill entry screen").Type micReturn
+
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= bill entry screen").Type micF6
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= bill entry screen").Window("regexpwndclass:= ThunderRT6FormDC","Windowstyle:= 343932928").Type micreturn
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= bill entry screen").Window("regexpwndclass:= ThunderRT6FormDC","Windowstyle:= 343932928").Type micRight+micreturn
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= bill entry screen").Type micEsc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

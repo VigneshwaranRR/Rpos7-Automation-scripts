@@ -1,0 +1,46 @@
+'Security manager
+wait(3)
+Window("regexpwndtitle:= GoFrugal Rpos7").Winobject("abs_y:=74").type micCtrldwn+micShiftdwn+"e"+micCtrlUp+micShiftUp
+wait(3)
+window("regexpwndtitle:= SecurityManager").window("regexpwndtitle:= Security Manager.*").Type micRight
+wait(1)
+window("regexpwndtitle:= SecurityManager").window("regexpwndtitle:= Security Manager.*").Type micReturn
+wait(3)
+window("regexpwndtitle:= SecurityManager").window("regexpwndtitle:= Security Manager.*").Type micReturn+micReturn+micDwn
+window("regexpwndtitle:= SecurityManager").window("regexpwndtitle:= Security Manager.*").Type micReturn+micReturn+micDwn
+window("regexpwndtitle:= SecurityManager").window("regexpwndtitle:= Security Manager.*").Type micReturn+micReturn+micDwn
+window("regexpwndtitle:= SecurityManager").window("regexpwndtitle:= Security Manager.*").Type micReturn+micReturn+micDwn
+window("regexpwndtitle:= SecurityManager").window("regexpwndtitle:= Security Manager.*").Type micReturn+micReturn+micDwn
+window("regexpwndtitle:= SecurityManager").window("regexpwndtitle:= Security Manager.*").Type micReturn+micReturn+micDwn
+window("regexpwndtitle:= SecurityManager").window("regexpwndtitle:= Security Manager.*").Type micReturn+micReturn+micDwn
+window("regexpwndtitle:= SecurityManager").window("regexpwndtitle:= Security Manager.*").Type micReturn+micReturn+micDwn
+window("regexpwndtitle:= SecurityManager").window("regexpwndtitle:= Security Manager.*").Type micReturn+micReturn+micDwn
+window("regexpwndtitle:= SecurityManager").window("regexpwndtitle:= Security Manager.*").Type micReturn+micReturn+micDwn
+window("regexpwndtitle:= SecurityManager").window("regexpwndtitle:= Security Manager.*").Type " "
+
+window("regexpwndtitle:= SecurityManager").window("regexpwndtitle:= Security Manager.*").Type micF6
+wait(1)
+window("regexpwndtitle:= SecurityManager").window("regexpwndtitle:= Security Manager.*").Type micTab+micTab+micReturn
+
+'window("regexpwndtitle:= Security Manager.*").Winobject("regexpwndclass:= ThunderRT6FormDC","windowstyle:= 382206080").Type micTab+micTab+micReturn
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

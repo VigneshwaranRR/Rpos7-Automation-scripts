@@ -1,0 +1,34 @@
+'Registration master
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type "Registration master"+micReturn+micReturn
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Registration").Type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Registration").WinObject("regexpwndtitle:= 654321").Type micEnd+"789"+micReturn
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Registration").Type micReturn+micReturn+micReturn+micReturn+micReturn+micReturn+micReturn+micReturn+micReturn+micReturn+micReturn+"Chennai"+micReturn+micReturn+"9443548654"+micReturn+micReturn+micReturn+"www.Romangenerals.com"+micReturn+micReturn
+
+Dialog("regexpwndclass:= #32770","windowstyle:= -1798831675").Type micReturn
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+Window("regexpwndtitle:= GoFrugal Rpos7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal Rpos7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type "Vat area master"+micReturn+micReturn
+
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Vat Area Master").Type micback+"Chennai"+micReturn
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Vat Area Master").Type micF6
+'Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Vat Area Master").Window("regexpwndclass:=ThunderRT6FormDC","abs_x:=431","abs_y:=319").Type micreturn
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Vat Area Master").Type micEsc
+'Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Vat Area Master").Window("regexpwndclass:=ThunderRT6FormDC","abs_x:=431","abs_y:=319").Type micreturn
+
+

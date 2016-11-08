@@ -1,0 +1,25 @@
+''Salesman master search
+Window("regexpwndtitle:= GoFrugal Rpos7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal Rpos7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type "Salesman master"+micReturn+micReturn
+'Salesman master creation
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:=SalesMan Master").type micBack+"Rammm"+micReturn 
+'Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:=SalesMan Master").WinObject("regexpwndclass:= Edit","abs_x:=488","abs_y:=178").Type 
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:=SalesMan Master").type micBack
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:=SalesMan Master").type micBack
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:=SalesMan Master").type micF6
+
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:=SalesMan Master").type micBack+ "Sam"+micReturn 
+'Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:=SalesMan Master").WinObject("regexpwndclass:= Edit","abs_x:=488","abs_y:=177").Type
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:=SalesMan Master").type micBack+"1"+micReturn 
+'Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:=SalesMan Master").WinObject("regexpwndclass:= Edit","abs_x:=488","abs_y:=199").Type 
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:=SalesMan Master").type micF6
+
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:=SalesMan Master").type micBack+"Karam"+micReturn 
+'Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:=SalesMan Master").WinObject("regexpwndclass:= Edit","abs_x:=488","abs_y:=177").Type 
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:=SalesMan Master").type micBack+ "3"+micReturn 
+'Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:=SalesMan Master").WinObject("regexpwndclass:= Edit","abs_x:=488","abs_y:=199").Type
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:=SalesMan Master").type micF6
+
+
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:=SalesMan Master").type micEsc
+

@@ -1,0 +1,29 @@
+'Vat Forms
+Window("regexpwndtitle:= GoFrugal Rpos7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal Rpos7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type "Vat Forms"+micReturn+micReturn
+'VF operations
+Window("regexpwndtitle:= Vat forms & E-filling.*").WinObject("regexpwndtitle:= Setup").Click
+Window("regexpwndclass:=WindowsForms10.Window.8.app.0.378734a","windowstyle:= 381812736").Type mictab+"T"+micTab+micReturn
+
+Window("regexpwndtitle:= Vat forms & E-filling.*").Type micTab+micTab+micTab+micTab+" "
+
+Window("regexpwndtitle:= Vat forms & E-filling.*").WinObject("regexpwndtitle:= &Generate").Click
+
+Dialog("regexpwndtitle:= VATGenerator").Type micReturn
+Window("regexpwndclass:= CabinetWClass","windowstyle:= 349110272").Type micAltDwn+micF4+micAltUp
+
+Window("regexpwndtitle:= Vat forms & E-filling.*").WinObject("regexpwndtitle:= &Close").Click
+
+'Window("regexpwndclass:=SALFRAME","abs_x:=382","abs_y:=127").Type micAltDwn+micF4+micAltUp
+
+
+
+
+
+
+
+
+
+
+
+

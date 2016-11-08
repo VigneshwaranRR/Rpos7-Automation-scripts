@@ -1,0 +1,20 @@
+window("regexpwndtitle:= GoFrugal RPOS7").Winobject("abs_y:=74").type micCtrldwn+micShiftdwn+"D"+micCtrlUp+micShiftUp
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Distributor Master").type micBack+"Shivlal Traders"+micReturn
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Distributor Master").WinObject("regexpwndclass:= Edit","abs_x:=488","abs_y:=178").type 
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Distributor Master").Type micF6
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Distributor Master").type micBack+"Ronchal Distributions"+micReturn
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Distributor Master").WinObject("regexpwndclass:= Edit","abs_x:=488","abs_y:=177").type 
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Distributor Master").Type micF6
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Distributor Master").type micBack+"Jaykar Traders"+micReturn
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Distributor Master").WinObject("regexpwndclass:= Edit","abs_x:=488","abs_y:=177").type 
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Distributor Master").Type micDwn+micDwn+micDwn+micDwn+micF2+micDwn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Distributor Master").Type micF6
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Distributor Master").type micBack+"JK traders"+micReturn
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Distributor Master").WinObject("regexpwndclass:= Edit","abs_x:=488","abs_y:=177").type 
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Distributor Master").Type micDwn+micDwn+micDwn+micDwn+micF2+micDwn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Distributor Master").Type micF6
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Distributor Master").Type micEsc
+

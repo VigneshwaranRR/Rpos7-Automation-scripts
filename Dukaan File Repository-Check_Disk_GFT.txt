@@ -1,0 +1,10 @@
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type "Check"+micReturn+micReturn
+'Check disk space
+wait(2)
+Window("regexpwndclass:=ThunderRT6FormDC","windowstyle:= 348651520").Type micAltDwn+micF4+micAltUp
+
+
+
+
+

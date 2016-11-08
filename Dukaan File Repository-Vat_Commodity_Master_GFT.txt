@@ -1,0 +1,7 @@
+Window("regexpwndtitle:= GoFrugal Rpos7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal Rpos7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type "Vat commodity master"+micReturn+micReturn
+
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Vat Commodity Master").Type micReturn+MicReturn+micBack+"Vat Struct 1"+micReturn
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Vat Commodity Master").Type micF6
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Vat Commodity Master").Type micEsc
+

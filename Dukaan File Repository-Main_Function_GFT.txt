@@ -1,0 +1,280 @@
+InvokeApplication "D:\GoFrugal\GoFrugalRPOS7\RetailPOS.exe"
+Window("regexpwndtitle:=  Login").Window("regexpwndtitle:=Password").type micEsc
+Window("regexpwndtitle:= Login").WinObject("text:= Enter your Password").Type "admin"+micReturn
+'wait(2)
+'Window("regexpwndtitle:= Login").Dialog("regexpwndtitle:= Dukaan POS").Type micReturn
+'Window("regexpwndtitle:= Login").Window("regexpwndtitle:= Dukaan POS License Activation.*").WinObject("regexpwndtitle:= Sync").Click
+'wait(5)
+'Window("regexpwndtitle:= Login").Dialog("regexpwndtitle:= Dukaan POS").Type micReturn
+'wait(5)
+'InvokeApplication "D:\GoFrugal\GoFrugalRPOS7\RetailPOS.exe"
+'Window("regexpwndtitle:=  Login").Window("regexpwndtitle:=Password").type micEsc
+'Window("regexpwndtitle:= Login").WinObject("text:= Enter your Password").Type "admin"+micReturn
+wait(15)
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndclass:=ThunderRT6FormDC","windowstyle:= 369098752").Type micRight+micReturn
+wait(5)
+RunAction "Security manager [securitymanager_GFT]", oneIteration
+wait(1)
+Window("regexpwndtitle:= GoFrugal Rpos7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal Rpos7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type "Exit"+micReturn+micReturn+micReturn
+wait(30)
+InvokeApplication "D:\GoFrugal\GoFrugalRPOS7\RetailPOS.exe"
+'Window("regexpwndtitle:=  Login").Window("regexpwndtitle:=Password").type micEsc
+Window("regexpwndtitle:= Login").WinObject("text:= Enter your Password").Type "admin"+micReturn
+wait(20)
+RunAction "Customer master [Customer_master_GFT]", oneIteration
+wait(2)
+RunAction "Dep Vs cat [Dep Vs Cat_GFT]", oneIteration
+wait(2)
+RunAction "Category master [Category_master_GFT]", oneIteration
+wait(2)
+RunAction "Tax master [Tax master_GFT]", oneIteration
+wait(2)
+RunAction "Manufacturer [Manufacturer_GFT]", oneIteration
+wait(2)
+RunAction "Distributor master [Distributor master_GFT]", oneIteration
+wait(2)
+RunAction "Dept-Cat master [Dist-Cat master_GFT]", oneIteration
+wait(2)
+RunAction "Sales man master [Salesman master_GFT]", oneIteration
+wait(2)
+RunAction "Item master [Item master_GFT]", oneIteration
+wait(2)
+RunAction "Opening_stock_entry [Opening_stock_entry_GFT]", oneIteration
+wait(2)
+RunAction "Purchase module [Purchase module_GFT]", oneIteration
+wait(2)
+RunAction "Sales [Sales_GFT]", oneIteration
+wait(2)
+RunAction "Receipt note [Receipt Note_GFT]", oneIteration
+wait(2)
+RunAction "Purchase return [Purchase return_GFT]", oneIteration
+wait(3)
+RunAction "Expiry_Returns [Expiry return_GFT]", oneIteration
+wait(2)
+RunAction "Receipt_Note_Returns [Receipt_Note_Returns_GFT]", oneIteration
+wait(2)
+RunAction "Sales_quotation [sales_quotation_GFT]", oneIteration
+wait(2)
+RunAction "Conversion [Conversion_GFT]", oneIteration
+wait(2)
+RunAction "Item vs Eancode [Item vs Eancode_GFT]", oneIteration
+wait(2)
+RunAction "Stock_Updation [Stock_updation_GFT]", oneIteration
+wait(2)
+RunAction "Change_selling [Change_selling_GFT]", oneIteration
+wait(2)
+RunAction "Reorder [ReOrder_GFT]", oneIteration
+wait(2)
+RunAction "Barcode_print [Barcode_print_GFT]", oneIteration
+wait(2)
+RunAction "Sales_Return [Sales_Return_GFT]", oneIteration
+wait(2)
+RunAction "Reprint [Reprint_GFt]", oneIteration
+wait(2)
+RunAction "Purchase_formula [Purchase_Formula_GFt]", oneIteration
+wait(2)
+RunAction "Customer_sales_rates_history [Customer_sales_rate_history_GFT]", oneIteration
+wait(2)
+RunAction "Registration_Master [Registration_master_GFT]", oneIteration
+wait(2)
+RunAction "Unicode_Editor [Unicode_Editor_GFT]", oneIteration
+wait(2)
+RunAction "Unicode_Editor_Customer [Unicode_Editor_Customer_GFT]", oneIteration
+wait(2)
+RunAction "Key_Settings [Key_Settings_GFT]", oneIteration
+wait(2)
+RunAction "Vat_area_master [Vat_area_master_GFT]", oneIteration
+wait(2)
+RunAction "Second_inventory_key [Second_Inventory_key_GFT]", oneIteration
+wait(2)
+RunAction "Second_Purchase [Second_Purchase_GFT]", oneIteration
+wait(2)
+RunAction "Second_Sales [Second_sales_GFT]", oneIteration
+wait(2)
+RunAction "Second_Opening_Stock [Second_opening_stock_GFT]", oneIteration
+wait(2)
+RunAction "Second_SU [Second_SU_GFT]", oneIteration
+wait(2)
+RunAction "second_reports [Second_Report_GFT]", oneIteration
+wait(2)
+RunAction "Second_Reprint [Second_reprint_GFT]", oneIteration
+wait(2)
+RunAction "Second_Barcode [Second_barcode_GFT]", oneIteration
+wait(2)
+RunAction "Alpha_Numerical [Alpha_Numerical_GFT]", oneIteration
+wait(2)
+RunAction "Vat_Commodity_update [Vat_Commodity_update_GFT]", oneIteration
+wait(2)
+RunAction "Tax_slab [Tax_slab_GFT]", oneIteration
+wait(2)
+RunAction "Negative_stock_adjustments [Negative stock adjustments_GFT]", oneIteration
+wait(2)
+RunAction "Vat_commodity_master [Vat_Commodity_master_GFT]", oneIteration
+wait(2)
+RunAction "Categorywise_config [Categorywise_config_GFT]", oneIteration
+wait(2)
+RunAction "Themes [Themes_GFT]", oneIteration
+wait(2)
+RunAction "Device_Settings [Device_settings_GFT]", oneIteration
+wait(2)
+RunAction "Business_flash [Business_flash_GFT]", oneIteration
+wait(2)
+RunAction "Open_Printer_dialog [Open_printer_dialog_GFT]", oneIteration
+wait(2)
+RunAction "Vat_form_Efilling [VaT-form_Efilling_GFT]", oneIteration
+wait(2)
+RunAction "Check_disk [Check_disk_GFT]", oneIteration
+wait(2)
+RunAction "Active_counters [Active_counters_GFT]", oneIteration
+wait(2)
+RunAction "Cash_handover [Cash_handover_GFT]", oneIteration
+wait(2)
+RunAction "Dist_item_list [Dist_item_list_GFT]", oneIteration
+wait(2)
+RunAction "Master_Import [Master_import_GFT]", oneIteration
+wait(2)
+RunAction "Stock_ledger [Stock_ledger_GFT]", oneIteration
+wait(2)
+RunAction "Accounts [Accounts_GFT]", oneIteration
+wait(2)
+'RunAction "Ez_Print [Ez_Print_GFT]", oneIteration
+wait(2)
+RunAction "Practice_Data [Practice_data_GFT]", oneIteration
+wait(10)
+InvokeApplication "D:\GoFrugal\GoFrugalRPOS7\RetailPOS.exe"
+Window("regexpwndtitle:=  Login").Window("regexpwndtitle:=Password").type micEsc
+Window("regexpwndtitle:= Login").WinObject("text:= Enter your Password").Type "admin"+micReturn
+wait(20)
+RunAction "About_GFT [About_GFT]", oneIteration
+wait(2)
+RunAction "Com_Div_Loc_Master [Com_Loc_Div_master_GFT]", oneIteration
+wait(2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

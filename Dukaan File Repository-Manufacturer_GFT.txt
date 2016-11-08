@@ -1,0 +1,16 @@
+''Manufacturer master search
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type "Manufacturer"+micReturn+micReturn
+'MFR creation
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Manufacturer Master").type micBack+"Menaka cards"+micReturn 
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Manufacturer Master").WinObject("regexpwndclass:= Edit","abs_x:=488","abs_y:=178").Type 
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Manufacturer Master").type micF6
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Manufacturer Master").type micBack+"Lovely cards"+micReturn 
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Manufacturer Master").WinObject("regexpwndclass:= Edit","abs_x:=488","abs_y:=177").Type 
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Manufacturer Master").type micF6
+
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Manufacturer Master").type micEsc
+
+

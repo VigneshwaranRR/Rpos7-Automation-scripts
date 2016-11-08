@@ -1,0 +1,22 @@
+wait(2)
+window("regexpwndtitle:= GoFrugal RPOS7").Winobject("abs_y:=74").type micCtrldwn+"o"+micCtrlUp
+window("regexpwndtitle:= GoFrugal RPOS7").window("regexpwndtitle:=Opening Stock Entry").Type micReturn
+window("regexpwndtitle:= GoFrugal RPOS7").window("regexpwndtitle:=Form1").Type  "Greeting card large"+micReturn
+window("regexpwndtitle:= GoFrugal RPOS7").window("regexpwndtitle:=Opening Stock Entry").Type "100"+micReturn+"250"+micReturn+micReturn
+
+window("regexpwndtitle:= GoFrugal RPOS7").window("regexpwndtitle:=Form1").Type"Atomic clock"+micReturn
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= Serial Numbers").WinObject("regexpwndtitle:= &Auto generate Serial numbers").Click
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= Serial Numbers").Type micTab+micTab+micTab+"100"
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= Serial Numbers").Type micTab+"S2"
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= Serial Numbers").Type micTab+micreturn
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= Serial Numbers").Type micTab+micTab+micReturn
+window("regexpwndtitle:= GoFrugal RPOS7").window("regexpwndtitle:=Opening Stock Entry").Type micLeft+micReturn+micReturn+"250"+micReturn
+window("regexpwndtitle:= GoFrugal RPOS7").window("regexpwndtitle:=Opening Stock Entry").Type micF6
+wait(3)
+window("regexpwndtitle:= GoFrugal RPOS7").window("regexpwndtitle:=Opening Stock Entry").window("regexpwndclass:= ThunderRT6FormDC").Type micReturn
+window("regexpwndtitle:= GoFrugal RPOS7").window("regexpwndtitle:=Opening Stock Entry").Type micEsc
+
+
+
+
+

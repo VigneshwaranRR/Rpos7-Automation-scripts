@@ -1,0 +1,23 @@
+'Department vs Category
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type "Department"+micReturn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Department Vs Categories..").WinObject("regexpwndclass:= MSFlexGridWndClass","windowstyle:=1417674752").Type micLeft+micLeft+micLeft+micLeft+micLeft+micLeft+micDwn+"Y"
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Department Vs Categories..").Type micTab+micTab+micReturn
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Department Vs Categories..").WinObject("regexpwndclass:= ThunderRT6UserControlDC","Width:=79","Height :=26").Click
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Department Vs Categories..").Window("regexpwndclass:= ThunderRT6FormDC").Type  micLeft +micReturn+micReturn
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

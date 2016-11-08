@@ -1,0 +1,16 @@
+'Stock data fetch
+window("regexpwndtitle:= GoFrugal Rpos7").Winobject("abs_y:=74").type micCtrldwn+"u"+micCtrlUp
+window("regexpwndtitle:= GoFrugal Rpos7").window("regexpwndtitle:=Stock Update").Type micCtrlDwn+micShiftDwn+"2"+micCtrlUp+micShiftUp
+window("regexpwndtitle:= GoFrugal Rpos7").window("regexpwndtitle:=Stock Update").window("regexpwndclass:=ThunderRT6UserControlDC","abs_x:=451","abs_y:= 76").Click
+window("regexpwndtitle:= Apply Filter").winObject("regexpwndtitle:=Cancel").Click
+window("regexpwndtitle:= Apply Filter").window("regexpwndClass:= ThunderRT6FormDC","windowstyle:= 369098752").Type micLeft+micreturn
+
+'Stock update
+window("regexpwndtitle:= GoFrugal Rpos7").window("regexpwndtitle:=Stock Update").Type micF6
+window("regexpwndtitle:= GoFrugal Rpos7").window("regexpwndtitle:=Stock Update").winObject("regexpwndClass:=ThunderRT6FormDC","windowstyle:=369098752").Type micEsc
+window("regexpwndtitle:= GoFrugal Rpos7").window("regexpwndtitle:=Stock Update").Type "1000"+micDwn+"1000"+micReturn
+window("regexpwndtitle:= GoFrugal Rpos7").window("regexpwndtitle:=Stock Update").Type micF6
+window("regexpwndtitle:= GoFrugal Rpos7").window("regexpwndtitle:=Stock Update").winObject("regexpwndClass:=ThunderRT6FormDC","windowstyle:=369098752").Type micReturn
+window("regexpwndtitle:= GoFrugal Rpos7").window("regexpwndtitle:=Stock Update").winObject("regexpwndClass:=ThunderRT6FormDC","windowstyle:=369098752").Type micReturn
+window("regexpwndtitle:= GoFrugal Rpos7").window("regexpwndtitle:=Stock Update").Type micEsc
+

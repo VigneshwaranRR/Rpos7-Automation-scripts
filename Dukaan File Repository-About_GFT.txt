@@ -1,0 +1,18 @@
+Window("regexpwndtitle:= GoFrugal RPOS7").Winobject("abs_y:=74").type micAltDwn+"C"+micAltUp
+Window("regexpwndtitle:= GoFrugal RPOS7").Winobject("abs_y:=74").Type micLeft+micLeft+micLeft+micDwn+micDwn+micReturn
+wait(2)
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndclass:=ThunderRT6FormDC","windowstyle:=382205952").Click
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= About GoFrugal RPOS7").Click 55,218
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= About GoFrugal RPOS7").Window("regexpwndtitle:= GoFrugal License Activation.*").Type micTab+micreturn
+wait(4)
+Dialog("regexpwndclass:=#32770","windowstyle:=-1798831675","regexpwndtitle:= GoFrugal").Type micreturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= About GoFrugal RPOS7").Type micEsc
+
+
+
+
+
+
+
+
+

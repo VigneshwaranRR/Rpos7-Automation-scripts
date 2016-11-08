@@ -1,0 +1,14 @@
+Window("regexpwndtitle:= GoFrugal Rpos7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal Rpos7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type "Tax"+micReturn+micReturn
+
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:=Slab Rate Master").Type "Tax slab rate"+micReturn
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:=Slab Rate Master").Type "1"+micReturn+"1000"+micReturn+micReturn+micReturn
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:=Slab Rate Master").Type "1001"+micReturn+"10000"+micReturn+micReturn+micDwn+micReturn
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:=Slab Rate Master").Type micF6
+
+Window("regexpwndclass:=ThunderRT6FormDC","windowstyle:= 369098752").Type micLeft+micReturn
+Window("regexpwndclass:=ThunderRT6FormDC","windowstyle:= 369098752").Type micReturn
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:=Slab Rate Master").Type micEsc
+Window("regexpwndclass:=ThunderRT6FormDC","windowstyle:= 369098752").Type micReturn
+
+

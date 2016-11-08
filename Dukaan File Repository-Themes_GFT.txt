@@ -1,0 +1,14 @@
+Window("regexpwndtitle:= GoFrugal Rpos7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal Rpos7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type "Themes"+micReturn+micReturn
+
+'Themes change
+Window("regexpwndtitle:= Theme settings").Type micDwn
+Window("regexpwndtitle:= Theme settings").Window("regexpwndclass:= MSFlexGridWndClass","windowstyle:= 1417674752").Type micAltDwn+"A"+micAltUp
+'Window("regexpwndclass:= ThunderRT6FormDC","abs_x:= 431","abs_y:= 319").Type micReturn
+
+Window("regexpwndclass:= ThunderRT6FormDC","windowstyle:= 369098752").Type micReturn
+
+
+
+
+

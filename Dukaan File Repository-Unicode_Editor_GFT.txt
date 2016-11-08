@@ -1,0 +1,8 @@
+﻿Window("regexpwndtitle:= GoFrugal Rpos7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal Rpos7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type "Unicode editor"+micReturn+micDwn+micReturn
+
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Regional Language Editor").Type micRight+micRight+"ஆண்டுவிழா அட்டைகள்"+micReturn+"மலர்ச் செண்டு"+micReturn
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Regional Language Editor").Type micF6
+Dialog("regexpwndtitle:= Record Save").WinButton("regexpwndtitle:=&Yes").Click
+Dialog("regexpwndtitle:= Save").Type micreturn
+

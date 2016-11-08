@@ -1,0 +1,20 @@
+window("regexpwndtitle:= GoFrugal RPOS7").Winobject("abs_y:=74").type micCtrldwn+"t"+micCtrlUp
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= reprint").WinObject("regexpwndclass:= ThunderRT6UserControlDC","abs_x:=116","abs_y:= 574").Click
+wait(3)
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= reprint").WinObject("regexpwndtitle:= Bill").Click
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= reprint").WinObject("regexpwndtitle:= Bill").Click
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= reprint").WinObject("regexpwndtitle:= Bill").Type "P"+"P"+"P"
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= reprint").WinObject("regexpwndclass:= ThunderRT6UserControlDC","height:=26","width:= 80").Click
+wait(3)
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= reprint").WinObject("regexpwndtitle:= Purchase").Click
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= reprint").WinObject("regexpwndtitle:= Purchase").Click
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= reprint").WinObject("regexpwndtitle:= Purchase").Type "R"
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= reprint").WinObject("regexpwndclass:= ThunderRT6UserControlDC","height:=26","width:= 80").Click
+wait(3)
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= reprint").Type micEsc
+
+
+
+
+

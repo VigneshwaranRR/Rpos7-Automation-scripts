@@ -1,0 +1,82 @@
+window("regexpwndtitle:= GoFrugal RPOS7").Winobject("abs_y:=74").type micCtrldwn+micShiftdwn+"I"+micCtrlUp+micShiftUp
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Item Master").type micBack +"Flower Boquet"+micReturn
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").WinObject("regexpwndclass:= Edit","abs_x:=488","abs_y:=178").
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").Type micDwn+micDwn+micDwn+micReturn+micReturn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").Type micF6
+'Standard item 2
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Item Master").type micBack+ "Greeting card small 10*18"+micReturn
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").WinObject("regexpwndclass:= Edit","abs_x:=488","abs_y:=177").Type
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").Type micDwn+micDwn+micDwn+micDwn+micReturn+micDwn+micReturn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").Type micF6
+'Standard item 3
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Item Master").type micBack+"Greeting card Large 10*18"+micReturn
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").WinObject("regexpwndclass:= Edit","abs_x:=488","abs_y:=177").Type 
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").Type micDwn+micDwn+micDwn+micDwn+micReturn+micDwn+micReturn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").Type micF6
+'Serialized item 1
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Item Master").type micBack+"Tree wall fancy clock"+micReturn
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").WinObject("regexpwndclass:= Edit","abs_x:=488","abs_y:=177").Type
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").type micF2+micDwn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").Type micDwn+micDwn+micDwn+micDwn+micReturn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").Type micF6
+'Serialized item 2
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Item Master").type micBack+"Fossil table clock"+micReturn
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").WinObject("regexpwndclass:= Edit","abs_x:=488","abs_y:=177").Type 
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").type micF2+micDwn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").Type micDwn+micDwn+micDwn+micDwn+micReturn+micDwn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").Type micF6
+'Serialized item 3
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Item Master").type micBack+"Atomic clock-Fancy"+micReturn
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").WinObject("regexpwndclass:= Edit","abs_x:=488","abs_y:=177").Type 
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").type micF2+micDwn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").Type micDwn+micDwn+micDwn+micDwn+micReturn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").Type micF6
+'Matrix item 1
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Item Master").type micBack+"Bithday cards"+micReturn
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").WinObject("regexpwndclass:= Edit","abs_x:=488","abs_y:=177").Type 
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").type micF2+micDwn+micDwn+micDwn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").Type micReturn+micReturn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").Type micReturn+micReturn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").Type micDwn+micDwn+micReturn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").Type micF6
+'matrix item 2
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Item Master").type micBack+"Anniversary cards"+micReturn
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").WinObject("regexpwndclass:= Edit","abs_x:=488","abs_y:=177").Type 
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").type micF2+micDwn+micDwn+micDwn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").Type micReturn+micReturn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").Type micReturn+micReturn+micDwn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").Type micDwn+micDwn+micReturn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").Type micF6
+'matrix item 3
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Item Master").type micBack+"Valentine's cards"+micReturn
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").WinObject("regexpwndclass:= Edit","abs_x:=488","abs_y:=177").Type 
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").type micF2+micDwn+micDwn+micDwn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").Type micDwn+micReturn+micDwn+micReturn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").Type micReturn+micReturn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").Type micDwn+micReturn+micDwn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").Type micF6
+'matrix item 4
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Item Master").type micBack+"Farewell cards"+micReturn
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").WinObject("regexpwndclass:= Edit","abs_x:=488","abs_y:=177").Type 
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").type micF2+micDwn+micDwn+micDwn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").Type micReturn+micReturn+micdwn+micDwn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").Type micReturn+micReturn+micdwn+micDwn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").Type micDwn+micDwn+micReturn+micDwn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").Type micF6
+'Ultimate matrix
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Item Master").type micBack+ "Premieum cards"+micReturn
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").WinObject("regexpwndclass:= Edit","abs_x:=488","abs_y:=177").Type
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").type micF2+micDwn+micDwn+micDwn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").Type micReturn+micReturn+" "+micDwn+" "+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").Type micReturn+micreturn+" "+micDwn+" "+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").Type micDwn+micDwn+micReturn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").Type micF6
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").Type micEsc
+
+
+
+

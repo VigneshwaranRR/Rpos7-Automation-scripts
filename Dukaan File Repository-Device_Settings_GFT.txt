@@ -1,0 +1,55 @@
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type "Device settings"+micReturn+micReturn
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Device Configuration").Window("regexpwndtitle:= Find settings").Type "Barcode printer"+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Device Configuration").Type " "+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Device Configuration").WinObject("regexpwndclass:=ThunderRT6UserControlDC","abs_x:=1126","abs_y:=690").Click
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Device Configuration").WinObject("regexpwndclass:=ThunderRT6FormDC","Windowstyle:= 369098752").Type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Device Configuration").WinObject("regexpwndclass:=ThunderRT6FormDC","Windowstyle:= 369098752").Type micReturn
+
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Device Configuration").WinObject("regexpwndclass:= ThunderRT6TextBox","abs_x:= 1165","abs_y:= 72").Type "Barcode label field mapping"+micReturn
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Device Configuration").WinObject("regexpwndclass:=ThunderRT6FormDC","Windowstyle:= 369098752").Type micReturn
+'
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Device Configuration").Window("regexpwndtitle:= Barcode PRN field mapping").Type " "+micDwn+micDwn+micDwn+micDwn+micDwn+micDwn+micDwn+" "
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Device Configuration").Window("regexpwndtitle:= Barcode PRN field mapping").WinObject("regexpwndclass:=ThunderRT6UserControlDC","abs_x:=1085","abs_y:=632").Click
+'
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Device Configuration").Window("regexpwndtitle:= Barcode PRN field mapping").Type micTab+micTab+MicDwn+micRight+
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Device Configuration").Window("regexpwndtitle:= Barcode PRN field mapping").Click micRightbtn
+'
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Device Configuration").WinObject("regexpwndclass:=ThunderRT6TextBox","windowstyle:= 1409351872").Type "Advanced"+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Device Configuration").Window("regexpwndtitle:= Custom Barcode Generation").Type "Unique"+micReturn
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Device Configuration").Window("regexpwndtitle:= Custom Barcode Generation").Type "Y"+micRight+"1"+micRight+"3"+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Device Configuration").Window("regexpwndtitle:= Custom Barcode Generation").Type micDwn+micDwn+micDwn+micDwn+micDwn+micDwn+micDwn+micDwn+micDwn+micDwn+micDwn+micDwn+micDwn+micDwn+micDwn+"Y"
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Device Configuration").Window("regexpwndtitle:= Custom Barcode Generation").Type micF6
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Device Configuration").Window("regexpwndtitle:= Custom Barcode Generation").WinObject("regexpwndclass:=ThunderRT6FormDC","Windowstyle:= 369098752").Type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Device Configuration").Window("regexpwndtitle:= Custom Barcode Generation").WinObject("regexpwndclass:=ThunderRT6FormDC","Windowstyle:= 369098752").Type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Device Configuration").Window("regexpwndtitle:= Custom Barcode Generation").Type micEsc
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Device Configuration").Type micEsc
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Device Configuration").WinObject("regexpwndclass:=ThunderRT6FormDC","Windowstyle:= 369098752").Type micLeft+micReturn
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type "Key setting"+micReturn+micReturn
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Key settings").Window("regexpwndtitle:= Form1").Type "Sales bill"+micreturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Key settings").Type micF2
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Key settings").Window("regexpwndtitle:= Form1").Type "CashDisc"+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Key settings").Type micDel+micDwn
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Key settings").Type micDel+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Key settings").Window("regexpwndtitle:= Form1").Type "save_cash"+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Key settings").Type micUp+ micUp+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Key settings").Window("regexpwndtitle:= Form1").Type "Quickaddcus"+micReturn
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Key settings").Type micTab+micTab+micTab+micTab+micreturn
+
+Dialog("regexpwndclass:=#32770","windowstyle:=-1798831675").Type micLeft+micReturn
+'Dialog("regexpwndclass:=#32770","windowstyle:=-1798831675").Type micLeft+micReturn
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Key settings").Window("regexpwndclass:=ThunderRT6FormDC","abs_x:=431","abs_y:=319").Type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Key settings").Type micEsc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

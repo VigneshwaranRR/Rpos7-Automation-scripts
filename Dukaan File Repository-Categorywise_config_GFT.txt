@@ -1,0 +1,20 @@
+'Categorywise config search
+Window("regexpwndtitle:= GoFrugal Rpos7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal Rpos7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type "Categorywise config"+micReturn+micReturn
+'Category
+'Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Category Settings").WinObject("regexpwndclass:= MSFlexGridWndClass","Windowstyle:= 1409286144","height := 103").Click
+'Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Category Settings").Type micRight+" "+micDwn+" "+micDwn+" "
+'Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Category Settings").WinObject("regexpwndclass:= ThunderRT6UserControlDC","abs_x:= 881","abs_y:= 547").Click
+'
+'Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Category Settings").WinObject("regexpwndclass:= ThunderRT6FormDC","abs_x:= 431","abs_y:= 319").Type micreturn
+'
+' 
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Category Settings").Type micTab+micDwn+" "
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Category Settings").Type micTab+micTab+micTab+micTab+micReturn
+
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Category Settings").Window("regexpwndclass:= ThunderRT6FormDC","Windowstyle:= 369098752").Type micReturn
+
+
+
+
+

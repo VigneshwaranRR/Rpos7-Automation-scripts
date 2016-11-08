@@ -1,0 +1,36 @@
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type "Master Import"+micReturn+micReturn
+wait(3)
+WinObject("regexpwndclass:=ThunderRT6FormDC","windowstyle:=382205952"). Type "admin"+micReturn
+wait(4)
+WinObject("regexpwndclass:=ThunderRT6FormDC","windowstyle:= 382337024").Type micRight+micUp+micUp+micUp+micUp+micUp+" "
+WinObject("regexpwndclass:=ThunderRT6FormDC","windowstyle:= 382337024").Type micTab+micTab+micTab+micReturn
+
+WinObject("regexpwndclass:=ThunderRT6FormDC","windowstyle:= 382337024").Type micdwn+micUp+micUp+micUp+micUp+" "+micTab+micTab+micReturn
+WinObject("regexpwndclass:=ThunderRT6FormDC","windowstyle:= 382337024").Type micReturn
+wait(10)
+Window("regexpwndclass:=ThunderRT6FormDC","windowstyle:= 382337024").Type micTab+micTab+micReturn
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
