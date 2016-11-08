@@ -1,0 +1,19 @@
+window("regexpwndtitle:= GoFrugal RPOS7").Winobject("abs_y:=74").type micCtrldwn+micShiftdwn+"q"+micShiftUp+micCtrlUp
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= Receipt Note Returns").Type "122"+micReturn
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= Receipt Note Returns").Type "Poor Quality"+micReturn
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= Receipt Note Returns").Type micReturn+micReturn+micReturn+micReturn+micReturn
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= Receipt Note Returns").Type micReturn+micReturn
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= Form1").Type "Greeting cards"+micReturn
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= Receipt Note Returns").Type "10"+micreturn+micreturn+micreturn+micreturn+micreturn
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= Receipt Note Returns").Type micF6
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= Receipt Note Returns").Window("regexpwndclass:= ThunderRT6FormDC").Type micreturn
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= Receipt Note Returns").Window("regexpwndclass:= ThunderRT6FormDC").Type micreturn
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= Receipt Note Returns").Type micEsc
+
+
+
+
+
+
+
+

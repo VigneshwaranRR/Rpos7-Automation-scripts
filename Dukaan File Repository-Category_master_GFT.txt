@@ -1,0 +1,18 @@
+'Category master
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type "Category Master"+micReturn+micReturn
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Category Master").type micF2+micReturn+micDwn+micBack+"Menaka"+micReturn+micF6 
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Category Master").WinObject("regexpwndclass:= Edit","abs_x:=488","abs_y:=200").Type 
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Category Master").type micF2+micReturn+micDwn+micBack+"Lovely"+micReturn+micF6 
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Category Master").WinObject("regexpwndclass:= Edit","abs_x:=488","abs_y:=199").Type 
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Category Master").type micF2+micDwn+micReturn+micDwn+micBack+"English"+micReturn+micF6
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Category Master").WinObject("regexpwndclass:= Edit","abs_x:=488","abs_y:=199").Type 
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Category Master").type micF2+micDwn+micReturn+micDwn+micBack+"Tamil"+micReturn+micF6
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Category Master").WinObject("regexpwndclass:= Edit","abs_x:=488","abs_y:=199").Type 
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Category Master").type micEsc
+

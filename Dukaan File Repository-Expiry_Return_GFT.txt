@@ -1,0 +1,78 @@
+'Expiry item creation
+wait(3)
+Window("regexpwndtitle:= GoFrugal RPOS7").Winobject("abs_y:=74").type micCtrldwn+micShiftdwn+"i"+micCtrlUp+micShiftUp
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").Type micCtrlDwn+micF4+micCtrlUp
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").Window("regexpwndtitle:= Manage Tabs & Fields ...").WinObject("text:= Select All","Height:= 16","Width:= 64").Click
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").Window("regexpwndtitle:= Manage Tabs & Fields ...").Type micTab+micTab+micTab+micTab+micTab+micTab+micTab+micReturn
+wait(2)
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Item Master").type micBack+"Snow spray 100ml"+micReturn
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").WinObject("regexpwndclass:= Edit","abs_x:=488","abs_y:=177").Type 
+wait(1)
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").Type micDwn+micDwn+micDwn+micDwn+micDwn+micReturn+micDwn+micReturn
+wait(1)
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").Type micDwn+micDwn+micDwn+micDwn+micDwn+micDwn+micDwn+micDwn+micDwn+micDwn+micDwn+micDwn+micF2+micUp+micReturn
+wait(1)
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").Type micF6
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Item Master").Type micEsc 
+'Expiry item purchase0
+wait(2)
+window("regexpwndtitle:= GoFrugal RPOS7").Winobject("abs_y:=74").type micCtrldwn+"p"+micCtrlUp
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Entry").type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Entry").type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Entry").window("regexpwndtitle:= form1").Type Ranchal+micReturn
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Entry").Type micBack+"21"+micReturn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Entry").Type micBack+"21950"+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Entry").Type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Form1").WinObject("regexpwndclass:= ThunderRT6TextBox","windowstyle:=1409353920").Type "Snow spray 400 ml"+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Item Code.*").Type "1"+micReturn+"1117"+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Entry").Type "100"+micReturn+"100"+micReturn+"1000"+micReturn+"1000"+micReturn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Entry").Type micF6
+
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Entry").Window("regexpwndclass:=ThunderRT6FormDC").Type micReturn
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Entry").Window("regexpwndclass:=ThunderRT6FormDC").Type micReturn
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Entry").Window("regexpwndclass:=ThunderRT6FormDC").Type micReturn
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Entry").Window("regexpwndclass:=ThunderRT6FormDC").Type micReturn
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Entry").Type micEsc
+'Expiry return
+Window("regexpwndtitle:= GoFrugal RPOS7").Winobject("abs_y:=74").type micCtrldwn+micShiftdwn+"x"+micCtrlUp+micShiftUp
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Expiry Returns").type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Expiry Returns").Type "12"+micRight+"2017"+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Expiry Return Options").Type micTab+micTab+micTab+micTab+micTab+micTab+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Expiry Returns").type "100" +micReturn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Expiry Returns").type micF6
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Expiry Returns").Window("regexpwndclass:=ThunderRT6FormDC").Type micReturn+micReturn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Expiry Returns").type micEsc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

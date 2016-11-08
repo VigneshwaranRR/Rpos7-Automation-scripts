@@ -1,0 +1,27 @@
+Window("regexpwndtitle:= GoFrugal RPOS7").Winobject("abs_y:=74").type micCtrldwn+"b"+micCtrlUp
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= BarCode Print").Type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Form1").Type "Anniversary cards"+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Form1").Type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Form1").Type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= BarCode Print").Type "100"+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= BarCode Print").Type micF4
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= BarCode Print").Window("regexpwndclass:= ThunderRT6FormDC","windowstyle:= 369098752").Type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= BarCode Print").Window("regexpwndclass:= ThunderRT6FormDC","windowstyle:= 369098752").Type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= BarCode Print").Type micEsc
+
+'Sales with barcode
+Window("regexpwndtitle:= GoFrugal RPOS7").Winobject("abs_y:=74").type micCtrldwn+"s"+micCtrlUp
+Window("regexpwndtitle:= GoFrugal RPOS7").Winobject("abs_y:=74").type "00000109162"+micReturn+micReturn
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndclass:= ThunderRT6FormDC","windowstyle:=377487360").Type micReturn
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= bill entry screen").Type micF6 
+
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= bill entry screen").Window("regexpwndclass:= ThunderRT6FormDC","windowstyle:=343932928").Type micreturn
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= bill entry screen").Window("regexpwndclass:= ThunderRT6FormDC","windowstyle:=343932928").Type micRight+micreturn
+
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= bill entry screen").Type micEsc
+
+
+
+
+
+

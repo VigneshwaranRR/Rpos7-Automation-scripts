@@ -1,0 +1,21 @@
+'Distributor category master search
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type "Distributor category master"+micReturn+micReturn
+'Dist-Cat Creation
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Distributor Category Master").type micBack+ "Local distributor"+micReturn 
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Distributor Category Master").WinObject("regexpwndclass:= Edit","abs_x:=488","abs_y:=178").Type
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Distributor Category Master").type micF6
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Distributor Category Master").type micBack+ "Interstate"+micReturn 
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Distributor Category Master").WinObject("regexpwndclass:= Edit","abs_x:=488","abs_y:=177").Type
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Distributor Category Master").type micF6
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Distributor Category Master").type micEsc
+
+
+
+
+
+
+
+

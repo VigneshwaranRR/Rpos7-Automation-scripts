@@ -1,0 +1,50 @@
+'Location master
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type "Location master"+micReturn+micReturn
+
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Location master").type micBack+"Chennai"+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Location master").Type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Location master").Type micF6
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Location master").Type micEsc
+
+'Division master
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type "Division master"+micReturn+micReturn
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Division master").type micBack+"Roman Florals"+micReturn
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Division master").Type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Division master").Type micF6
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Division master").Type micEsc
+
+'Company master
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type "Company master"+micReturn+micReturn
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Company Master").type micBack+"Roman Florals"+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Company Master").type micBack+"RF"+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Company Master").type micF6
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Company Master").Type micEsc
+
+''Location master
+'Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+'Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type "Location master"+micReturn+micReturn
+'
+'
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Location master").type micBack+"Chennai"+micReturn
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Location master").Type micF2
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Location master").Window("regexpwndtitle:= Form1").Type micReturn
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Location master").Type micF6
+'
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Location master").Type micEsc
+
+
+
+
+
+
+
+

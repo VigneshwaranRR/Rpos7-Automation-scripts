@@ -1,0 +1,17 @@
+'Practice Data cleanup
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type "Practice Data"+micReturn+micReturn
+'PDC
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6FormDC","windowstyle:= 369098752").Type micRight+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Practice data clean up").Type micDwn+micDwn+micDWn+micLeft+micLeft+" "+micTab+micReturn
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Practice data clean up").WinObject("regexpwndclass:=ThunderRT6UserControlDC","abs_x:=735","abs_y:=605").Click
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Practice data clean up").Type micDwn+micDwn+micDwn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Practice data clean up").WinObject("regexpwndclass:=ThunderRT6TextBox","windowstyle:= 1409351904").Type  "admin"+micReturn
+wait(400)
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Practice data clean up").WinObject("regexpwndclass:=ThunderRT6FormDC","windowstyle:=369098752").Type micReturn
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+'Change selling
+
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type "Change selling"+micReturn+micReturn
+
+'Change selling rate
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Change Selling Price").type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Form1").type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Change Selling Price").Type "2000"+micRight+micRight+"2000"
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Change Selling Price").Type micF6
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Change Selling Price").WinObject("regexpwndclass:= ThunderRT6FormDC","windowstyle:= 369098752").Type micLeft+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Change Selling Price").WinObject("regexpwndclass:= ThunderRT6FormDC","windowstyle:= 369098752").Type micReturn
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Change Selling Price").Type micEsc
+

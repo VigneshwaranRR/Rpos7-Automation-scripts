@@ -1,0 +1,22 @@
+window("regexpwndtitle:= GoFrugal Rpos7").Winobject("abs_y:=74").type micCtrldwn+"q"+micCtrlUp
+Window("regexpwndtitle:=GoFrugal Rpos7").Window("regexpwndtitle:= Quotation Screen").Type micReturn
+Window("regexpwndtitle:=GoFrugal Rpos7").Window("regexpwndtitle:= Form1").Type "Vicky"+micReturn
+
+Window("regexpwndtitle:=GoFrugal Rpos7").Window("regexpwndtitle:= Quotation Screen").Type micReturn
+Window("regexpwndtitle:=GoFrugal Rpos7").Window("regexpwndtitle:= Form1").Type  "Birthday cards"+micReturn
+Window("regexpwndtitle:=GoFrugal Rpos7").Window("regexpwndtitle:= Quotation Screen").Type "10"+micReturn+micReturn
+Window("regexpwndtitle:=GoFrugal Rpos7").Window("regexpwndtitle:= Form1").Type  "Farewell cards"+micReturn
+Window("regexpwndtitle:=GoFrugal Rpos7").Window("regexpwndtitle:= Quotation Screen").Type "10"+micReturn
+
+Window("regexpwndtitle:=GoFrugal Rpos7").Window("regexpwndtitle:= Quotation Screen").Type micF6
+
+Window("regexpwndtitle:=GoFrugal Rpos7").Window("regexpwndtitle:= Quotation Screen").Window("regexpwndclass:= ThunderRT6FormDC").Type micReturn
+Window("regexpwndtitle:=GoFrugal Rpos7").Window("regexpwndtitle:= Quotation Screen").Window("regexpwndclass:= ThunderRT6FormDC").Type micReturn
+Window("regexpwndtitle:=GoFrugal Rpos7").Window("regexpwndtitle:= Quotation Screen").Window("regexpwndclass:= ThunderRT6FormDC").Type micRight+micReturn
+
+Window("regexpwndtitle:=GoFrugal Rpos7").Window("regexpwndtitle:= Quotation Screen").Type micEsc
+
+
+
+
+

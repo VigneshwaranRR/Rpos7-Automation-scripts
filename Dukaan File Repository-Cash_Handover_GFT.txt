@@ -1,0 +1,22 @@
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type "Cash"+micReturn+micReturn
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Cash Denomination").Type "0"+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Cash Denomination").Type "0"+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Cash Denomination").Type "0"+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Cash Denomination").Type "0"+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Cash Denomination").Type "0"+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Cash Denomination").Type "0"+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Cash Denomination").Type "0"+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Cash Denomination").Type "0"+micReturn
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Cash Denomination").Type micTab+micReturn
+
+Window("regexpwndclass:= ThunderRT6FormDC","windowstyle:=369098752").Type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Cash Denomination").Type micEsc
+
+
+
+
+
+

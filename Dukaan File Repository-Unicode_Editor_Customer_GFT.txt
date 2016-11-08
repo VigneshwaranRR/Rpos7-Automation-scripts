@@ -1,0 +1,34 @@
+﻿'Unicode Editor Customer
+Window("regexpwndtitle:= GoFrugal Rpos7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal Rpos7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type "Unicode editor"+micReturn+micReturn
+'UEC 
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Regional Editor.* ").Type Micreturn+"+"+micBack+"விக்கி"+micReturn+"46,தமிழ் நகர்"+micReturn+micReturn+micReturn+micReturn+"தஞ்சாவூர்"+micReturn+ micF6
+Wait(1)
+Dialog("regexpwndtitle:= Regional Editor").WinButton("regexpwndtitle:= &Yes").Click
+'UEC 2
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Regional Editor.* ").Type micDwn+Micreturn+"+"+micBack+"சாகு"+micReturn+"46,தமிழ் நகர்"+micReturn+micReturn+micReturn+micReturn+"சென்னை"+micReturn+ micF6
+Wait(1)
+Dialog("regexpwndtitle:= Regional Editor").WinButton("regexpwndtitle:= &Yes").Click
+
+
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Regional Editor.* ").Type micEsc
+Dialog("regexpwndtitle:= Regional Editor").WinButton("regexpwndtitle:= &Yes").Click
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

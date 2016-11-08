@@ -1,0 +1,31 @@
+'Purchase return entry
+Window("regexpwndtitle:= GoFrugal RPOS7").Winobject("abs_y:=74").type micCtrldwn+micShiftdwn+"o"+micCtrlUp+micShiftUp
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Return Entry").type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Return Entry").Window("regexpwndtitle:= Form1").WinObject("regexpwndclass:= ThunderRT6TextBox","windowstyle:=1409353920").Type "JK"+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Return Entry").type micReturn+micreturn+micReturn+micreturn+micReturn+micreturn+micReturn+micreturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Return Entry").type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Form1").WinObject("regexpwndclass:= ThunderRT6TextBox","windowstyle:=1409353920").Type "Anniversary cards"+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Form1").WinObject("regexpwndclass:= ThunderRT6TextBox","windowstyle:=1409353920").Type "MR"+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Return Entry").type "10" + micReturn+micreturn+micReturn+micReturn+micReturn
+
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Return Entry").type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Form1").WinObject("regexpwndclass:= ThunderRT6TextBox","windowstyle:=1409353920").Type "Greeting"+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Form1").WinObject("regexpwndclass:= ThunderRT6TextBox","windowstyle:=1409353920").Type "MR"+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Return Entry").type "10" + micReturn+micreturn+micReturn+micReturn+micReturn
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Return Entry").type micF6
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Return Entry").Window("regexpwndclass:=ThunderRT6FormDC").Type micReturn
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Return Entry").Window("regexpwndclass:=ThunderRT6FormDC").Type micReturn
+
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Return Entry").Type micEsc
+
+
+
+
+
+
+
+
+
+

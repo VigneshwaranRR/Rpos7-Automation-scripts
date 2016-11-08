@@ -1,0 +1,60 @@
+'sales
+Window("regexpwndtitle:= GoFrugal Rpos7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal Rpos7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type "Sales Register"+micReturn+micReturn
+
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Sales Register").Window("regexpwndtitle:=Date Filter").Type micF2
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Sales Register").Window("regexpwndtitle:=Report Filter").Type micF2
+wait(2)
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Sales Register").Type micCtrlDwn+micshiftDwn+"2"+micShiftUp+micCtrlUp
+wait(2)
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Sales Register").Type micCtrlDwn+micshiftDwn+"3"+micShiftUp+micCtrlUp
+wait(2)
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Sales Register").Type micEsc
+'Purchase
+Window("regexpwndtitle:= GoFrugal Rpos7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal Rpos7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type " "+micReturn
+
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Form1").Type micCtrlDwn+micCtrlUp
+Window("regexpwndtitle:= Form1").WinListView("regexpwndclass:= ListView20WndClass","windowstyle:= 1451229765").Type micDwn+" "
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Form1").Type "3137"+micReturn
+
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Purchase Register").Window("regexpwndtitle:=Date Filter").Type micF2
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Purchase Register").Window("regexpwndtitle:=Report Filter").Type micF2
+wait(2)
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Purchase Register").Type micCtrlDwn+micshiftDwn+"2"+micShiftUp+micCtrlUp
+wait(2)
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Purchase Register").Type micCtrlDwn+micshiftDwn+"3"+micShiftUp+micCtrlUp
+wait(2)
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Purchase Register").Type micEsc
+'Current stock
+Window("regexpwndtitle:= GoFrugal Rpos7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal Rpos7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type " "+micReturn
+
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Form1").Type micCtrlDwn+micCtrlUp
+Window("regexpwndtitle:= Form1").WinListView("regexpwndclass:= ListView20WndClass","windowstyle:= 1451229765").Type micDwn+" "
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Form1").Type "3030"+micReturn
+
+
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Current Stock Detail ").Window("regexpwndtitle:=Report Filter").Type micF2
+wait(2)
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Current Stock Detail ").Type micCtrlDwn+micshiftDwn+"2"+micShiftUp+micCtrlUp
+wait(2)
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Current Stock Detail ").Type micCtrlDwn+micshiftDwn+"3"+micShiftUp+micCtrlUp
+wait(2)
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Current Stock Detail").Type micEsc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

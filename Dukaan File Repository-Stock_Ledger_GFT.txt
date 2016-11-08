@@ -1,0 +1,8 @@
+Window("regexpwndtitle:= GoFrugal Rpos7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal Rpos7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type "Stock ledger detail"+micReturn+micReturn
+
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Stock Ledger Detail").Window("regexpwndtitle:= Date filter").Type micF2
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Stock Ledger Detail").Window("regexpwndtitle:= Report Filter").Type micF2
+wait(2)
+Window("regexpwndtitle:= GoFrugal Rpos7").Window("regexpwndtitle:= Stock Ledger Detail").Type micEsc
+

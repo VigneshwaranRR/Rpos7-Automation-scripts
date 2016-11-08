@@ -1,0 +1,22 @@
+window("regexpwndtitle:= GoFrugal Rpos7").Winobject("abs_y:=74").type micctrldwn+"a"+micCtrlUp
+wait(2)
+Window("regexpwndtitle:= GoFrugal TRAC").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=370","abs_y:=47").Click
+Window("regexpwndtitle:= GoFrugal TRAC").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=370","abs_y:=47").Type "About"+micReturn+micReturn
+wait(2)
+'Window("regexpwndtitle:= GoFrugal TRAC").WinObject("regexpwndclass:=ThunderRT6FormDC","abs_x:=448","abs_y:=303").Type micreturn
+'
+'Window("regexpwndtitle:= GoFrugal TRAC").Type micAltDwn+"m"+micAltUp+micLeft+micLeft+micReturn
+'
+'Window("regexpwndtitle:= GoFrugal TRAC").WinObject("regexpwndclass:=ThunderRT6FormDC","abs_x:=448","abs_y:=303").Type micreturn
+
+Window("regexpwndtitle:= GoFrugal TRAC").Window("regexpwndtitle:= About GoFrugal TRAC").Type micAltDwn+micF4+micAltUp
+Window("regexpwndtitle:= GoFrugal TRAC").Type micAltDwn+"m"+micAltUp+micLeft+micLeft+micReturn
+Window("regexpwndtitle:= GoFrugal TRAC").WinObject("regexpwndclass:=ThunderRT6FormDC","Windowstyle:= 343933056").Type micreturn
+
+
+
+
+
+
+
+

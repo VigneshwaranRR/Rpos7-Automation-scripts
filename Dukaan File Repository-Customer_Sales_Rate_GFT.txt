@@ -1,0 +1,23 @@
+'Customer sales rate history search
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type "Customer sales rate history"+micReturn+micReturn
+'CSRH
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Customer Sale Rate History").Type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Customer Sale Rate History").Window("regexpwndtitle:= Form1").Type "B"+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Customer Sale Rate History").Type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Customer Sale Rate History").Window("regexpwndtitle:= Form1").Type micReturn
+wait(3)
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Customer Sale Rate History").Type micF7
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Customer Sale Rate History").Type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Customer Sale Rate History").Window("regexpwndtitle:= Form1").Type "B"+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Customer Sale Rate History").Type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Customer Sale Rate History").Window("regexpwndtitle:= Form1").Type micReturn
+wait(2)
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Customer Sale Rate History").Type micEsc
+
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Customer Sale Rate History").Window("regexpwndclass:=ThunderRT6FormDC","abs_x:=431","abs_y:=319").Type micReturn
+
+
+

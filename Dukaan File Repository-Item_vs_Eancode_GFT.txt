@@ -1,0 +1,65 @@
+'Item vs Eancode search
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type "Item vs Eancode"+micReturn+micReturn
+'Item Vs Eancode
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Item Vs EANCODE").Window("regexpwndclass:= DataGridWndClass","windowstyle:= 1442840576","width:=593").Type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Item Vs EANCODE").Window("regexpwndtitle:= Form1").Type "Snow spray"+micReturn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Item Vs EANCODE").Window("regexpwndclass:= DataGridWndClass","windowstyle:=1451229184").Type micBack+"0011"+micreturn+micBack+"1000"+micReturn
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Item Vs EANCODE").Type micF6
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Item Vs EANCODE").Window("regexpwndclass:=ThunderRT6FormDC").Type micReturn
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Item Vs EANCODE").Type micEsc
+'Purchse of
+
+window("regexpwndtitle:= GoFrugal RPOS7").Winobject("abs_y:=74").type micCtrldwn+"p"+micCtrlUp
+wait(2)
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Entry").type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Entry").type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Entry").window("regexpwndtitle:= form1").Type Ranchal+micReturn
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Entry").Type micBack+"13"+micReturn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Entry").Type micBack+"21950"+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Entry").Type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Form1").WinObject("regexpwndclass:= ThunderRT6TextBox","windowstyle:= 1409353920").Type "Snow spray 400 ml"+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Item Code.*").Type "1"+micReturn+"1117"+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Entry").Type "100"+micReturn+"100"+micReturn+"1000"+micReturn+"1000"+micReturn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Entry").Type micF6
+
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Entry").Window("regexpwndclass:=ThunderRT6FormDC").Type micReturn
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Entry").Window("regexpwndclass:=ThunderRT6FormDC").Type micReturn
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Entry").Window("regexpwndclass:=ThunderRT6FormDC").Type micReturn
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Entry").Window("regexpwndclass:=ThunderRT6FormDC").Type micReturn
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Entry").Type micEsc
+'Sales using EAN code
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Winobject("abs_y:=74").type micCtrldwn+"s"+micCtrlUp
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= Bill Entry Screen").Type "0011"+micReturn+"10"+micReturn
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= Bill Entry Screen").Type micF6
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= bill entry screen").Window("regexpwndclass:= ThunderRT6FormDC","windowstyle:= 343932928").Type micreturn
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= bill entry screen").Window("regexpwndclass:= ThunderRT6FormDC","windowstyle:= 343932928").Type micRight+micreturn
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= Bill Entry Screen").Type micEsc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

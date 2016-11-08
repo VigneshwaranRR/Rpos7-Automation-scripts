@@ -1,0 +1,9 @@
+'Open printer dialog
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type "Open printer Dialog"+micReturn+micReturn
+
+Dialog("regexpwndtitle:= Print").WinButton("regexpwndtitle:= &Print").Click
+
+
+
+

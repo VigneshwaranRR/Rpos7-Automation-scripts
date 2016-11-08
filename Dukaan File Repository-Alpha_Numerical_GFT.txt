@@ -1,0 +1,101 @@
+'Alpha numerical user config.
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type "Exit"+micReturn+micReturn+micReturn
+wait(30)
+InvokeApplication "D:\GoFrugal\GoFrugalRPOS7\RetailPOS.exe"
+wait(2)
+Window("regexpwndtitle:=   Login").Type micCtrlDwn+micAltDwn+micShiftDwn+"l"+micCtrlUp+micAltUp+micShiftUp
+Window("regexpwndtitle:=   Login").Type "Vigneshwaran.rr"+micreturn
+Window("regexpwndtitle:=   Login").Type "Rvicky17."+micReturn
+wait(15)
+Window("regexpwndtitle:= GoFrugal RPOS7").Type micCtrlDwn+micShiftDwn+"a"+micCtrlUp+micShiftUp
+wait(8)
+Window("regexpwndtitle:= Business Configuration.* ").WinObject("regexpwndclass:=ThunderRT6TextBox","windowstyle:= 1409286336").Type "alpha"+micReturn
+wait(2)
+Window("regexpwndtitle:= Business Configuration.* ").Type " " 
+wait(2)
+Window("regexpwndtitle:= Business Configuration.* ").WinObject("regexpwndclass:=ThunderRT6TextBox","windowstyle:= 1409286336").Type "Negative"+micReturn+micreturn
+Window("regexpwndtitle:= Business Configuration.* ").Type " " 
+Window("regexpwndtitle:= Business Configuration.* ").Type micF6
+Window("regexpwndtitle:= Business Configuration.* ").Type micEsc
+Dialog("regexpwndtitle:= GoFrugal Business Configuration").Type micReturn
+wait(1)
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type "Exit"+micReturn+micReturn+micReturn
+wait(5)
+'Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6UserControlDC","windowstyle:=1442840576").Click
+wait(20)
+InvokeApplication "D:\GoFrugal\GoFrugalRPOS7\RetailPOS.exe"
+wait(2)
+Window("regexpwndtitle:=   Login").Type "admin"+micReturn
+wait(15)
+'Alpha Numerical search
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type "Alpha"+micReturn+micReturn
+
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Alphanumerical").Type micTab+micTab+micTab+micTab+"P"+"P"+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Alphanumerical").Type "a"+micDwn+"b"+micDwn+"c"+micDwn+"d"+micDwn+"e"+micDwn+"f"+micDwn+"g"+micDwn+"h"+micDwn+"i"+micDwn+"j"+micDwn
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Alphanumerical").Type micF6
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Alphanumerical").window("regexpwndclass:=ThunderRT6FormDC","windowstyle:= 369098752").Type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Alphanumerical").Type micEsc
+
+'Purchase using alphanumeric
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Winobject("abs_y:=74").type micCtrldwn+"p"+micCtrlUp
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Entry").type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Entry").type micReturn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Entry").Type micBack+"22"+micReturn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Entry").Type micBack+"21950"+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Entry").Type micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Form1").WinObject("regexpwndclass:= ThunderRT6TextBox","Windowstyle:=1409353920").Type "Flower Boquet"+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Entry").Type "100"+micReturn+"BAA"+micReturn+"2000"+micReturn+"2000"+micReturn+micReturn+micReturn
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Form1").WinObject("regexpwndclass:= ThunderRT6TextBox","Windowstyle:=1409353920").Type "Greeting card small 10*18"+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Entry").Type "100"+micReturn+"BAA"+micReturn+"1000"+micReturn+"1000"+micReturn+micReturn
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Entry").Type micF6
+
+
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Entry").Window("regexpwndclass:=ThunderRT6FormDC").Type micReturn
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Entry").Window("regexpwndclass:=ThunderRT6FormDC").Type micReturn
+'Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Entry").Window("regexpwndclass:=ThunderRT6FormDC").Type micReturn
+'Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Entry").Window("regexpwndclass:=ThunderRT6FormDC").Type micReturn
+
+Window("regexpwndtitle:=GoFrugal RPOS7").Window("regexpwndtitle:= Purchase Entry").Type micEsc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

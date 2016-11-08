@@ -1,0 +1,7 @@
+'Business flash cards
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type "Business Flash card"+micReturn+micReturn
+'
+wait(2)
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:= Snapshot About Your Business").Type micTab+micTab+mictab+micReturn
+

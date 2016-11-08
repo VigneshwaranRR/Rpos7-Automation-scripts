@@ -1,0 +1,4 @@
+Dim WshShell, myKey
+Set WshShell = CreateObject("WScript.Shell")
+myKey = "HKEY_CURRENT_USER\Volatile Environment\GFT-Restart"
+WshShell.RegWrite myKey,0,"REG_SZ"

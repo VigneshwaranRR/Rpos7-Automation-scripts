@@ -1,0 +1,22 @@
+'Tax master search
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Click
+Window("regexpwndtitle:= GoFrugal RPOS7").WinObject("regexpwndclass:=ThunderRT6TextBox","abs_x:=349","abs_y:=50").Type "Tax master"+micReturn+micReturn
+'First taxValue
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Tax Master").type micBack+"Vat 14.5"+micReturn
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Tax Master").WinObject("regexpwndclass:= Edit","abs_x:=488","abs_y:=178").Type  
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Tax Master").type micBack+"14.5"+micReturn
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Tax Master").WinObject("regexpwndclass:= Edit","abs_x:=488","abs_y:=200").Type 
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Tax Master").type micBack+"10"
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Tax Master").WinObject("regexpwndclass:= Edit","abs_x:=488","abs_y:=222").Type 
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Tax Master").type micF6
+'Second taxValue
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Tax Master").type micBack+"Vat 5"+micReturn 
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Tax Master").WinObject("regexpwndclass:= Edit","abs_x:=488","abs_y:=177").Type 
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Tax Master").type micBack+"5"+micReturn
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Tax Master").WinObject("regexpwndclass:= Edit","abs_x:=488","abs_y:=199").Type 
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Tax Master").type micReturn+micBack+"10"
+'Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Tax Master").WinObject("regexpwndclass:= Edit","abs_x:=488","abs_y:=243").Type 
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Tax Master").type micF6
+
+Window("regexpwndtitle:= GoFrugal RPOS7").Window("regexpwndtitle:=Tax Master").type micEsc
+
